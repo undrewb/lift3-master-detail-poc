@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Memo</title>
+  </head>
+  <body data-lift-content-id="main">
+    <div id="main" data-lift="surround?with=default;at=content">
+      <h2>View Orders</h2>
+      <p>
+          <div class="create-order"><a href="create_order.html">Create order</a></div>
+        <div data-lift="OrderViewUI.view_orders">
+          <hr/>
+          <span class="order-cust-name"></span>
+          <span class="order-cust-addr"></span>
+          <span class="order-lines"></span>
+          <span class="order-edit-link"></span>
+        </div>
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+    <title>Edit order</title>
+</head>
+<body data-lift-content-id="main">
+<div id="main" data-lift="surround?with=default;at=content">
+    <h2>Edit an order</h2>
+    <p>
+    <div data-lift="OrderEditUI.edit_order">
+        <form id="create-order" method="post" action="edit_order.html">
+            <div class="order-cust-name"></div>
+            <div class="order-cust-addr"></div>
+            <div id="order-lines"></div>
+            <div class="add-order-line"></div>
+            <div class="order-submit"></div>
+        </form>
+    </div>
+    </p>
+</div>
+</body>
+</html>
